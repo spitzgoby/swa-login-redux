@@ -1,0 +1,7 @@
+@import 'colors';
+
+.login-form-submit-block {
+  &--button {
+    background-color: $swa-yellow !important;
+  }
+}

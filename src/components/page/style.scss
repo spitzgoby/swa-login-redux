@@ -1,0 +1,10 @@
+@import 'colors';
+
+.page {
+  padding-top: 96px;
+
+  .navbar {
+    background-color: $swa-blue;
+    padding: 8px;
+  }
+}
