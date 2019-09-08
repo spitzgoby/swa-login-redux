@@ -1,6 +1,6 @@
-import moment from 'moment'
+import moment from 'moment';
 
-const exampleFlights = [1,2,3]
+const exampleFlights = [1,2,3];
 const exampleEntities = {
   '1': {
     arrivalDate: moment().subtract(10, 'days').add(3, 'hours').format(),
@@ -37,7 +37,7 @@ const reducer = (state = initialState, action = {}) => {
   switch (action.type) {
 
     default:
-      newState = state
+      newState = state;
   }
 
   return newState;
