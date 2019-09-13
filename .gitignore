@@ -11,6 +11,9 @@
 # production
 /build
 
+# formatters
+.prettierrc
+
 # misc
 .DS_Store
 .env.local
